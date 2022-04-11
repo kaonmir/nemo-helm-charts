@@ -5,7 +5,7 @@
 name: nemo-smart
 namespace: default
 
-replicas: 1
+replicas: 2
 
 image:
   repository: 774026503161.dkr.ecr.ap-northeast-2.amazonaws.com/nemo-smart-dev
