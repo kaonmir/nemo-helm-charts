@@ -20,7 +20,7 @@ hosts:
   - www.whereurl.com
   - whereurl.com
 
-# ----- 여기까지는 모두 사용함
+# ----- 여기까지는 모두  사용함
 
 extraEnv:
   []
