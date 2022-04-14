@@ -1,14 +1,14 @@
-# Default values for jaeger-operator.
+# Default values for Nemo Smart Shinan.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 name: nemo-smart
 namespace: default
 
-replicas: 2
+replicas: 1
 
 image:
-  repository: 774026503161.dkr.ecr.ap-northeast-2.amazonaws.com/nemo-smart-dev
+  repository: 774026503161.dkr.ecr.ap-northeast-2.amazonaws.com/nemo-smart
   tag: latest
   pullPolicy: IfNotPresent
 
@@ -20,7 +20,7 @@ hosts:
   - www.whereurl.com
   - whereurl.com
 
-# ----- 여기까지는 모두  사용함
+# ----- 여기까지는 모두 사용함
 
 extraEnv:
   []
