@@ -20,6 +20,14 @@ hosts:
   - www.whereurl.com
   - whereurl.com
 
+# nodeSelector:
+#   role: nodegroup_admin
+
+# tolerations:
+#   - key: "TAINED_BY_ADMIN"
+#     operator: "Exists"
+#     effect: "NoSchedule"
+
 # ----- 여기까지는 모두 사용함
 
 extraEnv:
@@ -41,10 +49,6 @@ resources:
   # requests:
   #  cpu: 100m
   #  memory: 128Mi
-
-nodeSelector: {}
-
-tolerations: []
 
 affinity: {}
 
