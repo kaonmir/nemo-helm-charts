@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   gateways:
-    - default/gateway-business
+    - default/gateway-app
   hosts: {{- toYaml .Values.hosts | nindent 2}}
   http:
     - route:
